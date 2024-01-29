@@ -1,0 +1,31 @@
+TASK 1:
+
+write a blog on difference between document and window objects
+
+DOCUMENT OBJECT :
+=> It represents the webpage loaded in the browser. If document 
+object is accessed we can access HTML element.
+
+=> Document object is accessed by Window.document or document
+
+=> Document object is loaded inside the window
+
+=> Properties of document object is accessed by document.property.
+it has many properties. for example, document.head
+this displays all the elements in the document 
+
+
+WINDOW OBJECT : 
+=> It represents the browser window and displays content of webpage.
+Whenever the window appears on the screen to dislay content of document,
+the window object is created.
+
+=> Window object is accessed by window.window or window
+
+=> Window object loaded first in the browser
+
+=> Properties of window object is accessed by window.property.
+it has many properties. for example, window.fullscreen
+this tells us whether the current window screen is fullscreen or not. 
+ 
+

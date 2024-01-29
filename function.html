@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function example(){
+            let count=0
+            count++
+            console.log("print",count);
+        }
+        example()
+        for(i=0;i<5;i++){
+            example()
+        }
+
+        // function with parameter
+        function test(a,b,c,name,abc){    // assing value as parameter
+            console.log("function with parameter");
+            console.log(a,b,c,name,abc);
+            //to add an array
+            var sum=0
+            for(i=0;i<abc.length;i++){
+                sum=sum+abc[i]     // here it will add array and store in sum
+            }
+            console.log(sum+a+b+c);  // add array with other values
+
+        }
+        test(22,45,100,"guvi",[12,3,4,5])  //here it is argument when we pass value while calling function it is argument 
+
+        function student(e,m,s){
+            var ret=e+m+s
+            
+            //return e+m+s ;
+        }
+        let totalMarks=student(90,78,80)
+
+        function percentage(a,b){
+            var per=a/b*100
+            console.log(per);
+
+        }
+        percentage(totalMarks,300)
+
+
+        //annonymous function
+        let compute=function(a,b){           // here we dont have function name so storing it in variable 
+            console.log(a+b);
+        }
+        compute(2,3)
+
+        //arrow function
+
+    </script>
+</body>
+</html>
